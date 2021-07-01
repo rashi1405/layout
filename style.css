@@ -1,0 +1,157 @@
+body {
+
+    background-color: white ;
+
+    padding :0;
+
+}
+
+div {
+
+  text-align: center;
+
+}
+
+header{
+
+  background-color: rebeccapurple;
+
+  height: 60px;
+
+  place-items: center;
+
+  padding : 50px 0px;
+
+  font-size: 3em;
+
+  font-style: italic;
+
+  font-weight: bold;
+
+  color :white;
+
+}
+
+nav {
+
+  font-size: 1em;
+
+}
+
+sidebar {
+
+  background-color: pink;
+
+  height:500px;
+
+  width:30%;
+
+  float:left;
+
+  word-spacing: 5px;
+
+ 
+
+}
+
+article {
+
+  background-color: linen;
+
+  text-align: left;
+
+  width : auto;
+
+  height: 500px;
+
+  line-height: 35px;
+
+}
+
+img {
+
+  width:250px;
+
+  padding : 50px ;
+
+  height: 330px;
+
+  float : left;
+
+}
+
+p {
+
+  color :#7227AB;
+
+  font-size: 25px;
+
+}
+
+li {
+
+  font-size: 20px;
+
+  padding : 5px;
+
+  text-align: left;
+
+  list-style-type: none;
+
+}
+
+b {
+
+  color :#7227AB;
+
+  font-size: 2em;
+
+  font-style: italic;
+
+}
+
+small {
+
+  font-size: 1.5em;
+
+  line-height: 50px;
+
+  word-spacing: 2px;
+
+  letter-spacing: 2px;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  color : hotpink;
+
+}
+
+footer {
+
+  background-color: rebeccapurple;
+
+  height: 150px;
+
+  font-size: 1.5em;
+
+  font-style: italic;
+
+  color :white;    
+
+}
+
+@media (max-width: 600px){
+
+  article,sidebar {
+
+  width : 100%;
+
+  height: auto;
+
+}
+
+}
